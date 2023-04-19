@@ -8,8 +8,6 @@
 
 // return "";
 
-package Java_dz_2;
-
 public class Task_1 {
     public static void main(String[] args) {
         String s1 = "aB";
@@ -29,4 +27,3 @@ public class Task_1 {
 
     }
 }
-
