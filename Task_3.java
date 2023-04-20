@@ -26,7 +26,8 @@ public class Task_3 {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 String[] replacePair = replacements[j].split(" - ");
-                book[i] = book[i].replaceAll(replacePair[0], replacePair[1]);
+                book[i] = book[i].replaceAll(replacePair[0], replacePair[1]);  // replaceAll() – заменяет каждую подстроку данной строки, которая соответствует заданному регулярному выражению, 
+                //с данной заменой, другими словами – метод позволяет заменить слово в строке. 
                 book[i] = book[i].replaceAll(replacePair[0].toUpperCase(), replacePair[1].substring(0,1).toUpperCase() + replacePair[1].substring(1));
             }
         }
